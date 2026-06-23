@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.playwrite-ie-<uniquifier > {
+  font-family: "Playwrite IE", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "Playwrite IE", cursive;
+  font-size: 2.5rem;
+  text-align: center;
+  color: #ba26c4bc;
+  margin: 0.7rem 0rem 1.25rem; /*I selected this margin to ensure my tittle had space on the top and left*/
+}
+p {
+  border: double;
+  margin: 1.25rem 1rem 0rem;
+}
+.fun-facts {
+  background-color: #e4bae8;
+  padding: 1.25rem;
+  border-radius: 12px;
+  margin: 1.25rem 1rem 0rem;
+}
+
+.left-img {
+  float: left; /* makes the image sit to the left */
+  margin: 0rem 0.9375rem 0rem; /* space between image and text on the right side + space between image and "wall" on the left side */
+
+  width: 18.75rem; /* adjust size as needed */
+}
+
+.coffee-text {
+  margin: 12.5rem 0rem 0rem;
+  border: none;
+}
+/*I felt like these margins made my text more visually appeling*/
+
+nav ul {
+  display: flex;
+  gap: 1.25rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+nav {
+  background-color: #38d42b;
+  border-radius: 12px;
+  padding: 1.25rem; /*this padding made my text look neater*/
+  margin: 1.25rem 1rem 1.25rem;
+}
+
+nav a {
+  text-decoration: none;
+}
+nav a:hover {
+  color: #ba26c4bc;
+}
+
+.accordion-section {
+  margin: 1.25rem;
+}
+
+details {
+  background-color: #e4bae8;
+  padding: 1rem;
+  margin-bottom: 0.75rem;
+  cursor: pointer;
+}
+
+summary {
+  font-weight: bold;
+}
+
+details[open] {
+  background-color: #d79cdf;
+}
